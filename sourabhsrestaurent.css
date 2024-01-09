@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.heropage
+{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url("hero\ img.jpg");
+    background-size:cover;
+    padding-left: 100px;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    padding-left: 50px;
+}
+pre{
+    color: white;
+    font-size: 1.5rem;
+}
+.order
+{
+    height: 40px;
+    width: 120px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.items
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+#bx
+{
+    border: 2px solid black transparent;
+}
+#bx:hover
+{
+    border: solid black;
+    transition: 8px ease-out;
+}
+.box1
+{
+    background-image: url("img1.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 410px;
+    margin-left:100px;
+}
+.box2
+{
+    background-image: url("img2.jpg");
+        background-size: cover;
+    height: 500;
+    width: 410px;
+    margin-left: 20px;
+}
+.itemnames
+{
+    height: 200px;
+    width: 350px;
+    border: 2px solid black;
+    margin-right: 40px;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+.box3
+{
+    background-image: url("img3.jpg");
+        background-size: cover;
+    height: 616px;
+    width: 350px;
+    margin-top: -250px;
+    margin-left: 1030px;
+}
+.box4
+{
+    background-image: url("img4.jpg");
+        background-size: cover;
+    height: 616px;
+    width: 410px;
+    margin-top: -330px;
+    margin-right:850px;
+}
+.box5
+{
+    background-image: url("img5.jpg");
+    background-size: cover;
+    height: 616px;
+    width: 410px;
+    margin-top: -616px;
+    margin-left: 590px;
+}
+.visitagain
+{
+    height: 250px;
+    width: 350px;
+    border: 2px solid black;
+    margin-top: -250px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 25px;
+}
+.section
+{
+    margin-bottom: 20px;
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 25px;
+    height: 50px;
+    width: 100%;
+    background-color:rgb(30, 33, 30);
+}
